@@ -19,6 +19,8 @@
 
 #define BT(n) BT_SEL n
 
+/ {
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
 	tri_layer {
@@ -27,7 +29,6 @@
 	};
     };
 
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
