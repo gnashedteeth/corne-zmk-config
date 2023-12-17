@@ -28,9 +28,6 @@
             bindings = <&kp LCMD(z)>;
         };
     };
-};
-
-/ {
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
