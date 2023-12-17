@@ -20,6 +20,17 @@
 #define BT(n) BT_SEL n
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_undo {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp LCMD(z)>;
+        };
+    };
+};
+
+/ {
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
@@ -27,15 +38,6 @@
 	    if-layers = <NAV_L NUM_L>;
 	    then-layer = <SYM_L>;
 	};
-    };
-
-combos {
-        compatible = "zmk,combos";
-        combo_undo {
-            timeout-ms = <50>;
-            key-positions = <1 2>;
-            bindings = <&kp LCMD(z)>;
-        };
     };
 
     keymap {
