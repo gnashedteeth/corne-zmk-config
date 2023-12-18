@@ -26,25 +26,25 @@
             timeout-ms = <50>;
             key-positions = <25 26>;
 	    layers = <0>;
-            bindings = <&kp LCMD(Z)>;
+            bindings = <&kp LCMD(z)>;
         };
         combo_cut {
             timeout-ms = <50>;
             key-positions = <13 14>;
 	    layers = <0>;
-            bindings = <&kp LCMD(X)>;
+            bindings = <&kp LCMD(x)>;
         };
         combo_copy {
             timeout-ms = <50>;
             key-positions = <15 16>;
 	    layers = <0>;
-            bindings = <&kp LCMD(C)>;
+            bindings = <&kp LCMD(c)>;
         };
         combo_paste {
             timeout-ms = <50>;
             key-positions = <27 28>;
 	    layers = <0>;
-            bindings = <&kp LCMD(V)>;
+            bindings = <&kp LCMD(v)>;
         };
         combo_left {
             timeout-ms = <50>;
