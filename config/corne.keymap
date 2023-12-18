@@ -32,7 +32,7 @@
             timeout-ms = <50>;
             key-positions = <13 14>;
 	    layers = <0>;
-            bindings = <&kp PLUS>;
+            bindings = <&kp LG(x)>;
         };
         combo_copy {
             timeout-ms = <50>;
