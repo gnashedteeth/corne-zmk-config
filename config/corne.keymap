@@ -26,7 +26,7 @@
             timeout-ms = <50>;
             key-positions = <25 26>;
 	    layers = <0>;
-            bindings = <&kp STAR>;
+            bindings = <&kp LG(Z)>;
         };
         combo_cut {
             timeout-ms = <50>;
@@ -38,13 +38,13 @@
             timeout-ms = <50>;
             key-positions = <15 16>;
 	    layers = <0>;
-            bindings = <&kp LCMD(C)>;
+            bindings = <&kp LG(C)>;
         };
         combo_paste {
             timeout-ms = <50>;
             key-positions = <27 28>;
 	    layers = <0>;
-            bindings = <&kp LCMD(V)>;
+            bindings = <&kp LG(V)>;
         };
         combo_left {
             timeout-ms = <50>;
