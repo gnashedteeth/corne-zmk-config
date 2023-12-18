@@ -23,28 +23,28 @@
     combos {
         compatible = "zmk,combos";
         combo_undo {
-            timeout-ms = <50>;
+            timeout-ms = <75>;
             key-positions = <25 26>;
 	    layers = <0>;
-            bindings = <&kp LCMD(z)>;
+            bindings = <&kp LCMD(Z)>;
         };
         combo_cut {
             timeout-ms = <50>;
             key-positions = <13 14>;
 	    layers = <0>;
-            bindings = <&kp LCMD(x)>;
+            bindings = <&kp LCMD(X)>;
         };
         combo_copy {
             timeout-ms = <50>;
             key-positions = <15 16>;
 	    layers = <0>;
-            bindings = <&kp LCMD(c)>;
+            bindings = <&kp LCMD(C)>;
         };
         combo_paste {
             timeout-ms = <50>;
             key-positions = <27 28>;
 	    layers = <0>;
-            bindings = <&kp LCMD(v)>;
+            bindings = <&kp LCMD(V)>;
         };
         combo_left {
             timeout-ms = <50>;
