@@ -26,13 +26,13 @@
             timeout-ms = <50>;
             key-positions = <25 26>;
 	    layers = <0>;
-            bindings = <&kp LGUI(Z)>;
+            bindings = <&kp STAR>;
         };
         combo_cut {
             timeout-ms = <50>;
             key-positions = <13 14>;
 	    layers = <0>;
-            bindings = <&kp LGUI(X)>;
+            bindings = <&kp PLUS>;
         };
         combo_copy {
             timeout-ms = <50>;
