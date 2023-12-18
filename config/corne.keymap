@@ -48,13 +48,13 @@
         };
         combo_left {
             timeout-ms = <50>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
 	    layers = <0>;
             bindings = <&kp LEFT>;
         };
         combo_right {
             timeout-ms = <50>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
 	    layers = <0>;
             bindings = <&kp RIGHT>;
         };
