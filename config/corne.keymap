@@ -69,12 +69,13 @@
     };
 
     behaviors {
-	hypr: hyper_combo_repeat_key {
-	compatible = "zmk, behavior-hold-tap";
-	#binding-cells = <2>;
-	flavor = "hold-preferred";
-	tapping-term-ms = <50>;
-	bindings = <&mt LG(LC(LA(LSHFT)))>, <&key_repeat>;
+	hypr: hyper_combo_key_repeat {
+	    compatible = "zmk,behavior-hold-tap";
+	    #binding-cells = <2>;
+	    flavor = "hold-preferred";
+	    tapping-term-ms = <200>;
+	    quick-tap-ms = <175>;
+	    bindings = <&kp LC(LG(LA(LSHIFT)))>, <&key_repeat>;
 	};
 };
 
