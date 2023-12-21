@@ -58,6 +58,18 @@
 	    layers = <0>;
             bindings = <&kp RIGHT>;
         };
+        combo_up {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+	    layers = <0>;
+            bindings = <&kp UP>;
+        };
+        combo_down {
+            timeout-ms = <50>;
+            key-positions = <32 33>;
+	    layers = <0>;
+            bindings = <&kp DOWN>;
+        };
     };
 
     conditional_layers {
